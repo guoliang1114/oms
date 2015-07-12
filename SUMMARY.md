@@ -7,5 +7,5 @@
    * [Selling and Fulfillment Foundation](chapter1/artcle3.md)
 * [应用平台技术概念](chapter2.md)
    * [应用程序平台框架](chapter2/article1.md)
-   * 可扩展的用户界面
+   * [可扩展的用户界面](chapter2/article3.md)
 
