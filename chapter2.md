@@ -1,1 +1,1 @@
-应用程序控制台能够高效得管理集成的在大多数的企业供应链中存在的应用程序。Application Console是一个基于 Web 的图形用户界面，只适用于 Microsoft® Internet Explorer 浏览器，版本 8 或更高版本。它用于创建、跟踪并查看订单、物品库存，以及退货订单。
+应用平台是一个基础以及框架，它支撑整个OMS的业务。它使用最新的技术和标准，包含Java，EJB，JMS，JMX以及XML。Selling and Fulfillment Foundation提供最佳的灵活性部署，应对复杂的环境和适应不断变化的业务流程。它提供了一个框架，使企业在一个扩展的企业环境中做生意。
