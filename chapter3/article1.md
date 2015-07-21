@@ -11,7 +11,7 @@
 
 下图就是一个典型的组织建模。
 
-<img src="../chapter3/img/3.1.png"></img>
+<img src="../chapter3/img/3.1.png" style="width:535px"></img>
 
 
 * 企业集团
