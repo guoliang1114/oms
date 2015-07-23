@@ -17,6 +17,18 @@
 > * 物流管理
 > * 逆向物流
 
+##概述
+
+IBM® Sterling Order Management (OMS)在由客户、供应商和合作伙伴组成的一个动态业务网络中编排跨渠道的销售和订单履行流程。IBM Sterling Order Management 包含以下 4 个组件：
+* Distributed Order Management
+  使您的公司能够跨扩大的供应链网络来运行和协调订单履行流程，从而提供卓越的客户体验。
+* Global Inventory Visibility
+  通过整合来自内部和外部系统的库存信息，获取所有供需关系的单一的、全面的视图。
+* Reverse Logistics
+  促进交易，完善生命周期跟踪，提高库存利用率。
+* Delivery and Service Scheduling
+  计划产品递送和关联服务的时间安排，提高客户满意度
+
 ## 基本定义
 在 Sterling Selling and Fulfillment Suite 和本文中都使用下列术语。
 
