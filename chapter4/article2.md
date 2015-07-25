@@ -71,8 +71,7 @@
 
 
 
-<b>接受基础流程类型</b>
-
+<b>接收基础流程类型</b>
 <table>
   <tr>
     <th width="300px">Derived Process Types</td>
@@ -95,10 +94,120 @@
   <td>Sales Order Receipt</td>
  </tr>
 </table>
+
+<b>订单交付基础流程类型</b>
+<table>
+  <tr>
+    <th width="300px">Derived Process Types</td>
+    <th>Process Type Pipelines</td>
+  </tr>
+ <tr>
+  <td>Outbound Shipment</td>
+  <td>Outbound Shipment</td>
+ </tr>
+  <tr>
+  <td>Inbound Shipment</td>
+  <td>Inbound Shipment</td>
+ </tr>
+</table>
+
+<b>装载交付基础流程类型</b>
+<table>
+  <tr>
+    <th width="300px">Derived Process Types</td>
+    <th>Process Type Pipelines</td>
+  </tr>
+ <tr>
+  <td>Load Execution</td>
+  <td>Load Execution</td>
+ </tr>
+</table>
+
+<b>一般基础流程类型</b>
+<table>
+  <tr>
+    <th width="300px">Derived Process Types</td>
+    <th>Process Type Pipelines</td>
+  </tr>
+ <tr>
+  <td>General</td>
+  <td>none</td>
+ </tr>
+</table>
+
+<b>打包流程类型</b>
+<table>
+  <tr>
+    <th width="300px">Derived Process Types</td>
+    <th>Process Type Pipelines</td>
+  </tr>
+ <tr>
+  <td>Pack Process</td>
+  <td>Pack Process</td>
+ </tr>
+</table>
+
+<b>盘点流程类型</b>
+<table>
+  <tr>
+    <th width="300px">Derived Process Types</td>
+    <th>Process Type Pipelines</td>
+  </tr>
+ <tr>
+  <td>Count Execution</td>
+  <td>Count Execution</td>
+ </tr>
+</table>
+
+<b>出库提货流程类型</b>
+<table>
+  <tr>
+    <th width="300px">Derived Process Types</td>
+    <th>Process Type Pipelines</td>
+  </tr>
+ <tr>
+  <td>Outbound Picking</td>
+  <td>Standard Pick Process</td>
+ </tr>
+</table>
+
+<b>出库提货流程类型</b>
+<table>
+  <tr>
+    <th width="300px">Derived Process Types</td>
+    <th>Process Type Pipelines</td>
+  </tr>
+ <tr>
+  <td>VAS</td>
+  <td>VAS Work Order</td>
+ </tr>
+</table>
+
+<b>增值服务流程类型</b>
+<table>
+  <tr>
+    <th width="300px">Derived Process Types</td>
+    <th>Process Type Pipelines</td>
+  </tr>
+ <tr>
+  <td>VAS(value-added service)</td>
+  <td>VAS Work Order</td>
+ </tr>
+</table>
+
+<b>商机基础流程类型</b>
+<table>
+  <tr>
+    <th width="300px">Derived Process Types</td>
+    <th>Process Type Pipelines</td>
+  </tr>
+ <tr>
+  <td>Opportunity Fulfillment</td>
+  <td>Opportunity Fulfillment</td>
+ </tr>
+</table>
 流程类型管道包含一系列的事务和状态。一个管道包含很多文档的类型。在管道中你也可以包含事件、动作、条件。
 
-
-
-在Selling and Fulfillment Foundation系统中还涉及到一个管道（pipeline）选择的功能，这主要通过在一个工作流中的特定时间点根据执行事先定义好的条件判断，得到结果并选择相应的管道(pipeline)流程。举例来说就是，当一个组织在处理销售订单时，提供两种不同的管道（pipeline）处理流程分别用于处理包含大量产品条目的订单和处理少量产品条目的订单。当系统收到一个订单信息时，会首先执行事先定义好的条件判断，得到判断结果，如果订单具有大量产品条目就执行相应的管道（pipeline）流程，如果不是执行另一个管道（pipeline)流程。这就使用户通过事先的配置提高订单流程的自动化程度
+在Selling and Fulfillment Foundation系统中还涉及到一个管道（pipeline）选择的功能，这主要通过在一个工作流中的特定时间点根据执行事先定义好的条件判断，得到结果并选择相应的管道(pipeline)流程。举例来说就是，当一个组织在处理销售订单时，提供两种不同的管道（pipeline）处理流程分别用于处理包含大量产品条目的订单和处理少量产品条目的订单。当系统收到一个订单信息时，会首先执行事先定义好的条件判断，得到判断结果，如果订单具有大量产品条目就执行相应的管道（pipeline）流程，如果不是执行另一个管道（pipeline)流程。这就使用户通过事先的配置提高订单流程的自动化程度。
 
 
