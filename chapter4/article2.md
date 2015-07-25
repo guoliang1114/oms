@@ -8,7 +8,7 @@
 * Negotiation
 * Delivery
 
-<b>订单履行基础流程类型e</b>
+<b>订单履行基础流程类型</b>
 <table class="table table-bordered table-striped table-condensed">
   <tr>
     <th width="200px">Derived Process Types</td>
@@ -44,7 +44,60 @@
   </tr>
 </table>
 
+<b>订单谈判基础流程类型</b>
+
+<table>
+  <tr>
+    <th width="200px">Derived Process Types</td>
+    <th>Process Type Pipelines</td>
+  </tr>
+ <tr>
+  <td>Master Order Fulfillment</td>
+  <td>Master Order Fulfillment</td>
+ </tr>
+  <tr>
+  <td>Order Negotiation</td>
+  <td>Order Negotiation</td>
+ </tr>
+   <tr>
+  <td>Planned Order Negotiation</td>
+  <td>Planned Order Negotiation</td>
+ </tr>
+   <tr>
+  <td>Purchase Order Negotiation</td>
+  <td>Purchase Order Negotiation</td>
+ </tr>
+</table>
+
+
+
+<b>接受基础流程类型</b>
+
+<table>
+  <tr>
+    <th width="200px">Derived Process Types</td>
+    <th>Process Type Pipelines</td>
+  </tr>
+ <tr>
+  <td>Return Receipt</td>
+  <td>Return Receipt</td>
+ </tr>
+  <tr>
+  <td>Purchase Order Receipt</td>
+  <td>Purchase Order Receipt</td>
+ </tr>
+   <tr>
+  <td>Transfer Order Receipt</td>
+  <td>Transfer Order Receipt</td>
+ </tr>
+   <tr>
+  <td>Sales Order Receipt</td>
+  <td>Sales Order Receipt</td>
+ </tr>
+</table>
 流程类型管道包含一系列的事务和状态。一个管道包含很多文档的类型。在管道中你也可以包含事件、动作、条件。
+
+
 
 在Selling and Fulfillment Foundation系统中还涉及到一个管道（pipeline）选择的功能，这主要通过在一个工作流中的特定时间点根据执行事先定义好的条件判断，得到结果并选择相应的管道(pipeline)流程。举例来说就是，当一个组织在处理销售订单时，提供两种不同的管道（pipeline）处理流程分别用于处理包含大量产品条目的订单和处理少量产品条目的订单。当系统收到一个订单信息时，会首先执行事先定义好的条件判断，得到判断结果，如果订单具有大量产品条目就执行相应的管道（pipeline）流程，如果不是执行另一个管道（pipeline)流程。这就使用户通过事先的配置提高订单流程的自动化程度
 
