@@ -48,7 +48,7 @@
 
 <table>
   <tr>
-    <th width="200px">Derived Process Types</td>
+    <th width="300px">Derived Process Types</td>
     <th>Process Type Pipelines</td>
   </tr>
  <tr>
@@ -75,7 +75,7 @@
 
 <table>
   <tr>
-    <th width="200px">Derived Process Types</td>
+    <th width="300px">Derived Process Types</td>
     <th>Process Type Pipelines</td>
   </tr>
  <tr>
