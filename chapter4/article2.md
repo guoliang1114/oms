@@ -11,7 +11,7 @@
 <b>订单履行基础流程类型</b>
 <table class="table table-bordered table-striped table-condensed">
   <tr>
-    <th width="200px">Derived Process Types</td>
+    <th width="300px">Derived Process Types</td>
     <th>Process Type Pipelines</td>
   </tr>
   <tr>
